@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>2D Game</title>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+
+    <body onload="createboxes();" onkeyup="keycheck(event);" class="body">
+
+        <div id="background" class="background">
+
+            <div id="score" class="score">0</div>
+            <img id="boy" class="boy" src="Run (1).png"/>
+
+        </div>
+
+        <div id="end" class="end">
+            <img class="gameover" src="game_over_PNG56.png"/>
+            <img class="odead" src="Dead (10).png"/>
+            <div>Your Score</div>
+            <div id = "endscore">0</div>
+            <button onclick="reload();" class="btn">Try Again?</button>
+        </div>
+
+        <div class="welcome" id="welcome"> 
+           <div >Welcome!!!</div>
+            
+           <ul class="list">
+
+            <li class="list1">Press "ENTER" or "SPACEBAR" to start game</li>
+            <li class="list1">Press "SPACEBAR" to jump over the fire</li>
+            <li class="list1">If you touch fire, Game over</li>
+
+           </ul>
+
+        </div>
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
