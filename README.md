@@ -111,3 +111,6 @@ Then visit `http://localhost:8000`.
   `Enter` satisfies this.
 - Difficulty is fixed: the scroll speed and obstacle spacing are hardcoded constants.
 - This was built as a web programming course project.
+## License
+
+MIT — see [LICENSE](LICENSE).
